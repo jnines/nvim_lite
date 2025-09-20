@@ -7,7 +7,6 @@ return {
 
     lint.linters_by_ft = {
       yaml = { 'yamllint' },
-      javascript = { 'eslint' },
       json = { 'jsonlint' },
       bash = { 'shellcheck' },
     }

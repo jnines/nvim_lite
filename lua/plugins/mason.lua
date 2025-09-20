@@ -24,22 +24,15 @@ return {
     mason_lspconfig.setup({
       ensure_installed = {
         'bashls',
-        'html',
-        'emmet_ls',
-        'pyright',
         'jsonls',
         'yamlls',
-        'marksman',
       },
     })
 
     mason_tool_installer.setup({
       ensure_installed = {
-        'prettier',
-        'eslint',
         'shfmt',
         'jsonlint',
-        'pylint',
         'yamllint',
       },
     })

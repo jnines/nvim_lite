@@ -35,13 +35,8 @@ return {
 
     local servers = {
       bashls = {},
-      html = {},
-      ts_ls = {},
-      emmet_ls = {},
-      pyright = {},
       jsonls = {},
       yamlls = {},
-      marksman = {},
     }
 
     for serv, cfg in pairs(servers) do
