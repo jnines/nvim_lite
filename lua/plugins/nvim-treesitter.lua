@@ -9,7 +9,7 @@ return {
       'nvim-treesitter/nvim-treesitter-context',
     },
     config = function()
-      local treesitter = require('nvim-treesitter.configs')
+      local treesitter = require('nvim-treesitter')
 
       local tsctx = require('treesitter-context')
 
